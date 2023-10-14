@@ -6,7 +6,7 @@ Defining space we have occupied from wildlife in Costa Rica.
 
 For my project, I decided to look at area taken up by human population in Costa Rica. Costa Rica is a location known for it's abundant wildlife, beautiful beaches, and amazing rainforests. Tourism is high in the area for all of those reasons. However, much of the rainforest is now becoming urbanized due to population growth and catering to tourists. There is an overwhelming amound of habitat fragmentation causing problems for wildlife. If you want to learn more about urbanization for wildlife, specifically two and three-fingered sloths, please go to the Sloth Conservation Foundation website linked below. 
 
-https://slothconservation.org/urban-sloth-project-the-impacts-of-habitat-disturbance/
+[Link to Sloth Conservation Foundation](https://slothconservation.org/urban-sloth-project-the-impacts-of-habitat-disturbance/)
 
 # Data Source 
 
@@ -38,9 +38,17 @@ For the land cover and poplation data, I went to Layers-> Add Raster Layer.
 ![RasterLayer](Screenshots/Raster.png)
 
 ![LandCover](<Screenshots/Land Cover:Population.png>)
+*Land Cover of population use in Costa Rica*
 
+Next, I went to Vector-> Geoprocessing Tools-> Dissolve to layer my water areas with my land cover and population data. 
+
+![Dissolve](Screenshots/Dissolve.png)
+
+![LandCoverandWaterAreas](<Screenshots/Dissolve Preview.png>)
 
 # Map Summary
+
+In order to understand the space taken up
 
 # Link to Final Project
 
