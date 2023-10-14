@@ -10,11 +10,13 @@ For my project, I decided to look at area taken up by human population in Costa 
 
 # Data Source 
 
-I downloaded data from Texas A&M University's online library. There were several different maps about Costa Rica on website. I used maps that showed the water areas, water lines, land coverage, population, as well as OpenStreetMap. The projection of the original data was EPSG 4326-WGS 84. 
+I downloaded data from Texas A&M University's online library. There were several different maps about Costa Rica on website. I used maps that showed the water areas, water lines, land coverage, population, as well as OpenStreetMap. 
+
+The projection of the original data was EPSG 4326-WGS 84. Current projection is EPSG 3857, WGS 84/Pseudo-Mercator, and scale 1:1500000.
 
 [Link to Costa Rica Data Set](https://tamu.libguides.com/c.php?g=439384&p=2994027)
 
-# Map Making Process
+# Mapmaking Process
 
 Start with adding OpenStreetMap into QGIS. I zoomed into focus on Costa Rica but you can also use the coordinates -9355433, 1109152 that are for San Jose. 
 
@@ -47,7 +49,6 @@ Next, I went to Vector-> Geoprocessing Tools-> Dissolve to layer my water areas 
 ![LandCoverandWaterAreas](<Screenshots/Dissolve Preview.png>)
 *Image looks very similar to before*
 
-My ending projection was EPSG 3857, WGS 84/Pseudo-Mercator, and scale 1:1500000.
 
 # Map Summary
 
@@ -55,4 +56,4 @@ In order to understand the space taken up, I wanted to show how the population h
 
 # Link to Final Project
 
-[Final Project Website](https://calu233.github.io/urbanization-costarica/)
+Please view the [Final Project Website](https://calu233.github.io/urbanization-costarica/)
