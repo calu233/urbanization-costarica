@@ -25,10 +25,10 @@ After downloading my base maps to my folder in documents, I added each one to my
 
 ![VectorLayer](Screenshots/Vector.png)
 
-![WaterLines](Screenshots/WaterLines.png)
+![Waterlines](<Screenshots/Water Lines.png>)
 *Water Lines running throughout Costa Rica*
 
-![WaterAreas](Screenshots/WaterAreas.png)
+![WaterAreas](<Screenshots/Water Areas.png>)
 *Water Areas throughout Costa Rica*
 
 For the land cover and poplation data, I went to Layers-> Add Raster Layer.
