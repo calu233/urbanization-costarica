@@ -18,8 +18,13 @@ I downloaded data from Texas A&M University's online library. There were several
 
 Start with adding OpenStreetMap into QGIS. I zoomed into focus on Costa Rica but you can also use the coordinates -9355433, 1109152 that are for San Jose. 
 
-![OpenStreetMap](![Alt text](Screenshots/OpenStreetMap.png))
+![OpenStreetMap](Screenshots/OpenStreetMap.png)
 *OpenStreetMap of Costa Rica*
+
+After downloading my other base maps, I added each one to my map. For the water lines and water area data, I went to Layers->Add Vector Layer. 
+
+![VectorLayer](Screenshots/Vector.png)]
+
 
 # Map Summary
 
