@@ -21,9 +21,20 @@ Start with adding OpenStreetMap into QGIS. I zoomed into focus on Costa Rica but
 ![OpenStreetMap](Screenshots/OpenStreetMap.png)
 *OpenStreetMap of Costa Rica*
 
-After downloading my other base maps, I added each one to my map. For the water lines and water area data, I went to Layers->Add Vector Layer. 
+After downloading my base maps to my folder in documents, I added each one to my map. For the water lines and water area data, I went to Layers-> Add Vector Layer. 
 
-![VectorLayer](Screenshots/Vector.png)]
+![VectorLayer](Screenshots/Vector.png)
+
+![WaterLines](Screenshots/WaterLines.png)
+*Water Lines running throughout Costa Rica*
+
+![WaterAreas](Screenshots/WaterAreas.png)
+*Water Areas throughout Costa Rica*
+
+For the land cover and poplation data, I went to Layers-> Add Raster Layer.
+
+![RasterLayer](Screenshots/Raster.png)
+
 
 
 # Map Summary
