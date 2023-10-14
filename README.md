@@ -12,13 +12,16 @@ https://slothconservation.org/urban-sloth-project-the-impacts-of-habitat-disturb
 
 I downloaded data from Texas A&M University's online library. There were several different maps about Costa Rica on website. I used maps that showed the water areas, water lines, land coverage, population, as well as OpenStreetMap. The projection of the original data was EPSG 4326-WGS 84. 
 
-[Link to Costa Rica Data Set] (https://tamu.libguides.com/c.php?g=439384&p=2994027)
+[Link to Costa Rica Data Set](https://tamu.libguides.com/c.php?g=439384&p=2994027)
 
 # Map Making Process
+
+Start with adding OpenStreetMap into QGIS. I zoomed into focus on Costa Rica but you can also use the coordinates -9355433, 1109152 that are for San Jose. 
+
+![OpenStreetMap](![Alt text](Screenshots/OpenStreetMap.png))
+*OpenStreetMap of Costa Rica*
 
 # Map Summary
 
 # Link to Final Project
 
-![Lexington, Kentucky](![Alt text](/Users/calucas/Documents/urbanization-costarica/Screenshots/Screenshot 2023-10-14 at 11.47.54 AM.png))    
-*There it is! A remote image embedded in a Markdown document*
