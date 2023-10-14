@@ -45,10 +45,13 @@ Next, I went to Vector-> Geoprocessing Tools-> Dissolve to layer my water areas 
 ![Dissolve](Screenshots/Dissolve.png)
 
 ![LandCoverandWaterAreas](<Screenshots/Dissolve Preview.png>)
+*Image looks very similar to before*
+
+My ending projection was EPSG 3857, WGS 84/Pseudo-Mercator, and scale 1:1500000.
 
 # Map Summary
 
-In order to understand the space taken up
+In order to understand the space taken up, I wanted to show how the population has gotten closer to living near water areas which are hot spots for wildlife. Over the years, we have taken to major deforestation and building roads right through rainforests. Unforunately, it is hard to tell by looking at my maps how much space we now occupy vs how much we used to. It would've benfitted from data taken years ago to put it up against. Also, dissolve may not have been the best geoprocessing tool to use. 
 
 # Link to Final Project
 
