@@ -2,6 +2,14 @@
 
 Defining space we have occupied from wildlife in Costa Rica.
 
+# Project Contents
+
+- [Introducation](#Introduction)
+- [Data Source](#Data-source)
+- [Mapmaking Process](#Mapmaking-process)
+- [Map Summary](#Map-Summary)
+- [Link to Final Project](#Link-to-final-project)
+
 # Introduction 
 
 For my project, I decided to look at area taken up by human population in Costa Rica. Costa Rica is a location known for it's abundant wildlife, beautiful beaches, and amazing rainforests. Tourism is high in the area for all of those reasons. However, much of the rainforest is now becoming urbanized due to population growth and catering to tourists. There is an overwhelming amound of habitat fragmentation causing problems for wildlife. If you want to learn more about urbanization for wildlife, specifically two and three-fingered sloths, please go to the Sloth Conservation Foundation website linked below. 
