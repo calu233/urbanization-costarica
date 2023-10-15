@@ -4,7 +4,7 @@ Defining space we have occupied from wildlife in Costa Rica.
 
 # Project Contents
 
-- [Introducation](#Introduction)
+- [Introduction](#Introduction)
 - [Data Source](#Data-source)
 - [Mapmaking Process](#Mapmaking-process)
 - [Map Summary](#Map-Summary)
