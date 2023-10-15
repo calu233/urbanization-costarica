@@ -1,95 +1,169 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Progate</title>
-  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="stylesheet.css">
-  <link rel="stylesheet" type="text/css" href="responsive.css">
-  <link rel="shortcut icon" href="favicon.ico" >
-  
+  <meta charset=utf-8 />
+  <title>Urbanization in Costa Rica</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background: #618c70;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 400;
+      color: #c6ced0;
+    }
+
+    section {
+      width: 80%;
+      margin: 10px auto;
+    }
+
+    h1 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 300;
+      font-size: 2.5em;
+      /* The em unit. 2.5x the current size */
+      letter-spacing: .04em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      font-family: 'Open Sans', sans-serif;
+      font-weight: 700;
+      color: rgb(4, 4, 4);
+      font-size: 1.25em;
+      letter-spacing: .04em;
+    }
+
+    p {
+      font-size: 1em;
+      line-height: 1.5em;
+    }
+
+    a {
+      color: #090600;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin: 10px 0
+    }
+
+    #map {
+      width: 100%;
+      margin: 0px auto;
+
+    }
+
+    .max-image-width {
+      width: 100%;
+    }
+
+
+    .linkbox {
+      margin: 3px 0 20px 0;
+      display: block;
+      font-weight: 300;
+    }
+
+    hr {
+      border: 0px;
+      border-bottom: 1px solid #3d3d3d;
+      padding-top: 20px;
+    }
+
+    /* Use float property to make two-column layout. */
+
+    .first-column {
+      float: left;
+      width: 48%;
+      padding-right: 20px;
+    }
+
+    .column {
+      float: left;
+      width: 48%;
+    }
+
+    /* Clear floats after the columns */
+
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* When browser is 800px wide or less */
+
+    @media screen and (max-width: 800px) {
+      .first-column,
+      .column {
+        width: 100%;
+      }
+    }
+  </style>
 </head>
+
 <body>
-    <header>
-      <div class="container">
-        <div class="header-left">
-          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
-        </div>
-        <span class="fa fa-bars menu-icon"></span>
-        <div class="header-right">
-          <a href="#">Lessons</a>
-          <a href="#">Sign in</a>
-          <a href="#" class="login">Log in</a>
-        </div>
-      </div>
-    </header>
-    <div class="top-wrapper">
-      <div class="container">
-        <h1>LEARN TO CODE.</h1>
-        <h1>LEARN TO BE CREATIVE.</h1>
-        <p>Progate is a web service where you can learn programming online.</p>
-        <p>We offer you a fully equipped coding environment to get you started.</p>
-        <div class="btn-wrapper">
-          <a href="#" class="btn signup">Sign up with Email</a>
-          <p>or</p>
-          <a href="#" class="btn facebook"><span class="fa fa-facebook"></span>Sign up with Facebook</a>
-          <a href="#" class="btn twitter"><span class="fa fa-twitter"></span>Sign up with Twitter</a>
-        </div>
-      </div>
+  <!-- Add map to top of page and make it stretch to fill browser window. -->
+  <div class="row">
+    <div class="column">
+      <img src="Maps/costarica.png" style="width:100%" class="max-image-width">
     </div>
-    <div class="lesson-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Learn Where to Get Started!</h2>
-        </div>
-        <div class="lessons">
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/html.png">
-              <p>HTML & CSS</p>
-            </div>
-            <p class="text-contents">Languages used to build and design the appearances of your websites. HTML adds the structure, and CSS styles it.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
-              <p>jQuery</p>
-            </div>
-            <p class="text-contents">A fast, feature-rich and easy-to-use JavaScript library that handles animations and Ajax requests.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/ruby.png">
-              <p>Ruby</p>
-            </div>
-            <p class="text-contents">A dynamic, general-purpose language that is simple and productive. It is commonly used around the world to build web applications.</p>
-          </div>
-          <div class="lesson">
-            <div class="lesson-icon">
-              <img src="https://prog-8.com/images/html/advanced/php.png">
-              <p>PHP</p>
-            </div>
-            <p class="text-contents">An open source scripting language that can be embedded into HTML, and well suited for web development.</p>
-          </div>
-          <div class="clear"></div>
-        </div>
-      </div>
+    <div class="column">
+      <img src="Maps/costarica-population 5.00.27 PM.png" style="width:100%" class="max-image-width">
     </div>
-    <div class="message-wrapper">
-      <div class="container">
-        <div class="heading">
-          <h2>Ready to become an awesome programmer?</h2>
-          <h3>Let's learn to code, learn to be creative!</h3>
-        </div>
-        <span class="btn message">Start Learning</span>
-      </div>
-    </div>
-    <footer>
-      <div class="container">
-        <img src="https://prog-8.com/images/html/advanced/footer_logo.png">
-        <p>Learn to code, learn to be creative.</p>
-      </div>
-    </footer>
-  </body>
-</html>
+  </div>
+
+  <!-- Create a two column layout for map information. -->
+  <section>
+    <a href='Maps/costarica8000px.png' class="linkbox">Higher resolution version available of Costa Rica</a>
+    <a href='Maps/costarica-population8000px.png' class="linkbox">Higher resolution version available of Costa Rica with land cover</a>
+
+    <h1>Urbanization in Costa Rica</h1>
+    <h2>Authored by: calu233</h2>
+
+    <div class="row">
+<p>Map created using QGIS 3.32 on a Mac using a 1:1500000 scale and the World Geodetic system (EPSG 3857)</p>
+    <h3>Map details</h3>
+    <b>Tourism/Habitat Fragmentation</b>
+
+<li> Costa Rica is a highly sought out destination place for vacations due to abundant wildlife, beautiful beaches, and gorgeous rainforests. Unfortunately, due to popular demand and overall population growth, rainforests in Costa Rica are becoming urbanized. Wildlife and humans are having to figure out how to share the same space.
+
+<li>
+<a href="https://slothconservation.org/urban-sloth-project-the-impacts-of-habitat-disturbance/" target="_blank">The Sloth Conservation Foundation</a> does a lot of research into how wildlife, specifically how two and three-fingered sloths are affected by urbanization. Sloths are the most admitted animal into rescue centers in Costa Rica. Many of their biggest obstacles include: safely crossing roads that have fragmented their habitats, being killed by dogs, and being exploited by humans. These maps show the rainforests and waterways in Costa Rica, then where the human population fits on top.   One of their biggest accomplishments are creating bridges over new roads to help piece back together fragmented habitat. 
+
+</li>  
+
+<b>Country maps</b>
+<li>
+Basemaps were found on Texas A&M University's online library. There were many links to different data sets for Costa Rica <a href="https://tamu.libguides.com/c.php?g=439384&p=2994027">Admin 0 – GIS Information for Costa Rica</a>. 
+
+<h3>Methods</h3>
+<li>For more information about the methods used to create these maps, please see the methods described on <a href="https://github.com/calu233/urbanization-costarica">GitHub</a>.</li>
+    <p>
+      University of Kentucky, MAP671, October 2023
+    <p>
+    <hr>
+    <ul>
+      <li>My GitHub page is available for view: <a href="https://github.com/calu233">Cierra Lucas</a></li>
+	
+    </ul>
+  </section>
+
+</body>
+</html>    
